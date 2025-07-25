@@ -29,6 +29,12 @@ docker run -d --name attu   -p 8000:3000   -e MILVUS_URL=192.168.10.199:19530   
 
 ![Attu](./graph/attu.png)
 
+## Work Procedure
+Notice: you can build whatever database you want, not necessary a medical artical database like I did, the procedure will be most likely.
+1. Build your own Milvus database with designed collection schema with the code in the main folder, following the steps 1-5.
+2. Download as much data as you need and save them to your vector database, code and instructions in the subfolder - download_pubmed_2015-2025.
+3. Luanch the mcp-server with a http api service, or change it to stdin transport as you need, code and instructions in the subfolder - pubmed-mcp-server.
+4. Set a timer update the database with download_pubmed_to_milvusdb_2.py
 
 ## Timer Update the Database
 To add a new timer operation: crontab -e
