@@ -19,8 +19,11 @@ docker compose up -d
 
 ### MCP Tools Preparation
 pip install marshmallow==3.20.1 -i https://pypi.tuna.tsinghua.edu.cn/simple\
+
 pip install Flask -i https://pypi.tuna.tsinghua.edu.cn/simple\
+
 pip install pymilvus -U -i https://pypi.tuna.tsinghua.edu.cn/simple\
+
 pip install "mcp[cli]" -i https://pypi.tuna.tsinghua.edu.cn/simple\
 
 ### Attu WebUI Docker Setup
