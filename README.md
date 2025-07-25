@@ -35,6 +35,9 @@ Notice: you can build whatever database you want, not necessary a medical artica
 2. Download as much data as you need and save them to your vector database, code and instructions in the subfolder - download_pubmed_2015-2025.
 3. Luanch the mcp-server with a http api service, or change it to stdin transport as you need, code and instructions in the subfolder - pubmed-mcp-server.
 4. Set a timer update the database with download_pubmed_to_milvusdb_2.py
+5. Add your mcp-server to the agent/LLM/workflow, here I intergrate it in Dify workflow as an example:
+
+<img width="2280" height="537" alt="image" src="https://github.com/user-attachments/assets/f80ff91c-4e2f-4224-884e-37169f1f53ea" />
 
 ## Timer Update the Database
 To add a new timer operation: crontab -e
