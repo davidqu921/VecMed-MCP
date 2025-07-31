@@ -1,7 +1,7 @@
 # VecMed-MCP: Milvus Vector Database for Medical Data
 
 ## Project Overview
-<img width="1024" height="1024" alt="47c3a52e549d46a9bbdee82e38fe4b79~tplv-5jbd59dj06-image" src="https://github.com/user-attachments/assets/55f7ce4b-7214-4ab8-ac3f-8cfe569d8e1d" />
+<img width="256" height="256" alt="47c3a52e549d46a9bbdee82e38fe4b79~tplv-5jbd59dj06-image" src="https://github.com/user-attachments/assets/55f7ce4b-7214-4ab8-ac3f-8cfe569d8e1d" />
 
 This repository provides tools to establish and manage a Milvus vector database for medical data, specifically designed for rare disease research. It includes scripts for database initialization, data ingestion, search functionality, LLM-based result summarization, and scheduled updates.
 
@@ -57,7 +57,7 @@ The general workflow can be adapted for various database types beyond medical ar
 4. Set up timer-based database updates using `download_pubmed_to_milvusdb_2.py`
 5. Integrate the MCP server into your agent/LLM/workflow (example integration with Dify workflow provided)
 
-<img width="2280" height="537" alt="image" src="https://github.com/user-attachments/assets/f80ff91c-4e2f-4224-884e-37169f1f53ea" />
+<img width="1024" height="256" alt="image" src="https://github.com/user-attachments/assets/f80ff91c-4e2f-4224-884e-37169f1f53ea" />
 
 ## Scheduled Database Updates
 
